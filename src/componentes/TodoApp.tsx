@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useActionState, useState } from "react";
 
 export const TodoApp = () => {
-  const [newTask, setNewTask] = useState("");
+  const [newTask, setNewTask] = useState<string>("");
+  const [taskList, setTaskList] = useState<string[]>([]);
   return (
     <div>
       <h1>Tasks List</h1>
