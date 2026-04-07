@@ -7,7 +7,6 @@ A simple Todo application built with **React** and **TypeScript**, focused on st
 ## 🚀 Features
 
 - Add new tasks
-- Mark tasks as completed
 - Delete tasks
 - Dynamic list rendering
 - Strong typing with TypeScript
